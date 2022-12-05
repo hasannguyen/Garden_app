@@ -1,5 +1,5 @@
 # Garden_app
-##Description
+## Description
 My garden app will allow a user to add vegetables or fruits to a list that tracks what they would want to plant.
 
 ## Apis
