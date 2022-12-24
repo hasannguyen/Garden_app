@@ -3,7 +3,9 @@
 My garden app will allow a user to add vegetables or fruits to a list that tracks what they would want to plant.
 
 ## Apis
-- Trefle API https://docs.trefle.io/
+- Flora Codex https://floracodex.com/
+  - Original plan was to use Trefle API, unfortunately that API is no longer online. Flora codex is an alternative one to possibly use.
+
 - Quote API (many different options)
   -   Zen Quotes (Will probably use this one since they have a quote of the day) https://zenquotes.io/ 
   -   Forismatic https://forismatic.com/en/api/
@@ -18,15 +20,11 @@ The homepage will display a random plant and image of it from the Trefle api, al
 
 Once a user logs in they'll be redirected to their plant tracker and it'll display all they plants they've add their list. A user would also be able to delete plants off their list if they want. If there's none, it'll suggest the option for the user to check out the plant list page
 
-3. Plant list Page
+3. Search Page
 
-Add some static info on difference between a fruit and vegetable and then separate into two different categories: Fruits and Vegetables
+Add some static info on difference between a fruit and vegetable and have a search bar to search a plant with some suggestions of fruits or veggies on the bottom.
 
- 4. Fruits or Vegetables page
-
-Each page would use the Trefle API to filter if it's a fruit or vegetable and then return a list of plants that fit that category and a pictures of every plant. When a user clicks on that specific plant they will then have an option of adding it to their plant tracker list.
-
--Side note the Trefle Api has a limit of 120 request per minute, so might have to manually filter the fruits and veggies to the most commons one to not exceed rate limit
+3a. The search bar will query the Flora Codex api using the input value and return a list of names and images of related plants. Then there will be an option to add that plant to the plant tracker list.
 
 ## Stretch
 -Have a user set what season they're in for and possibly filter
